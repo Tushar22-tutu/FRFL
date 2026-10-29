@@ -1,0 +1,22 @@
+# Keep biometric data and generated artifacts out of Git
+data/*
+!data/README.md
+datasets/
+outputs/
+artifacts/
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.joblib
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
